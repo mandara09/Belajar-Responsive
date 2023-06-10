@@ -1,0 +1,15 @@
+.footer {
+  margin-top: 60px;
+}
+
+.footer .container {
+  background-color: #b6b6b6;
+  border-radius: 12px;
+  height: 480px;
+}
+
+@media only screen and (max-width: 768px) {
+  footer .container {
+    border-radius: unset;
+  }
+}

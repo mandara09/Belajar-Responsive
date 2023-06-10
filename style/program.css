@@ -1,0 +1,44 @@
+.program {
+  margin: 60px 0;
+}
+
+.program-wrapper {
+  align-items: center;
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+.program-image {
+  background-color: #b6b6b6;
+  border-radius: 6px;
+  height: 480px;
+  width: 50%;
+}
+
+.program-content {
+  width: 40%;
+}
+
+.program p {
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.program ul {
+  margin-top: 30px;
+}
+
+.program ul li {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .program-wrapper {
+    flex-direction: column;
+  }
+  .program-content,
+  .program-image {
+    width: 100%;
+  }
+}

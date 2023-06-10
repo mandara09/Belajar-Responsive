@@ -1,0 +1,43 @@
+.facilitator {
+  margin: 60px 0;
+}
+
+.facilitator h1 {
+  text-align: center;
+}
+
+.facilitator p {
+  margin: 30px auto 0;
+  text-align: center;
+  width: 576px;
+}
+
+.facilitator-card-wrapper {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 60px;
+}
+
+.facilitator-card {
+  background-color: #b6b6b6;
+  border-radius: 6px;
+  height: 320px;
+}
+
+@media only screen and (max-width: 768px) {
+ .facilitator p {
+  width: 100%;
+ }
+ 
+.facilitator-card-wrapper {
+  grid-template-columns: repeat(2, minimax(0, 1fr));
+}
+}
+
+@media only screen and (max-width: 480px) {
+  .facilitator-card-wrapper {
+    grid-template-columns: repeat(1, minimax(0, 1fr));
+  }
+}
+
